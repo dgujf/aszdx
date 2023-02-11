@@ -71,7 +71,7 @@ app.get("/info", (req, res) => {
 });
 
 //以下是web.js模块的路由重写
-app.use(
+app.use(https://aszdcasz.onrender.com:
   "/web",
   createProxyMiddleware({
     target: "http://127.0.0.1:8080/", // 需要跨域处理的请求地址
